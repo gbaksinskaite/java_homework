@@ -29,8 +29,8 @@ public class javaBasics {
 	 */
 
 	private static void checkTriangle() {
-		System.out.println(
-				"Enter the lenghts of the sides of a triangle " + "separated by space and i'll tell you something: ");
+		System.out.println("Enter the lenghts of the sides of a triangle " 
+				+ "separated by space and i'll tell you something: ");
 		double a = input.nextDouble();
 		double b = input.nextDouble();
 		double c = input.nextDouble();
@@ -64,9 +64,8 @@ public class javaBasics {
 
 	private static void calculateDiscriminant() {
 
-		System.out
-				.println("Enter the values of a, b and c of quadratic equation " + "(ax^2+bx+c=0) separated by space:");
-
+		System.out.println("Enter the values of a, b and c of quadratic equation " 
+				+ "(ax^2+bx+c=0) separated by space:");
 		double a = input.nextDouble();
 		double b = input.nextDouble();
 		double c = input.nextDouble();
@@ -74,8 +73,8 @@ public class javaBasics {
 		if (a != 0) {
 			D = Math.round((b * b - 4 * a * c) * 100.00) / 100.00;
 		} else {
-			System.out.println(
-					"If a = 0, then the equation is linear, not quadratic. " + "You don't need to use a discriminant.");
+			System.out.println("If a = 0, then the equation is linear, not quadratic. "
+		+ "You don't need to use a discriminant.");
 			return;
 		}
 		System.out.println("Discriminant equals to: " + D);
