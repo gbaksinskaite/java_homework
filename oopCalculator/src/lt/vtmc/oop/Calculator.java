@@ -1,7 +1,8 @@
 package lt.vtmc.oop;
 
 public class Calculator {
-
+	
+	/*class variable*/
 	static int operationCounter = 0;
 
 	public static void add(double a, double b) {
