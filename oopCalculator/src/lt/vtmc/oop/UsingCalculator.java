@@ -25,7 +25,7 @@ public class UsingCalculator {
 		Calculator.findTg(60.89);
 		Calculator.findCtg(90);
 		Calculator.calculatePercentage(55.40, 580.78);
-		Calculator.findModulus(10, 560);
+		Calculator.findModulus(560, 77);
 
 		/*
 		 * This method prints how many methods were called before it, using static
