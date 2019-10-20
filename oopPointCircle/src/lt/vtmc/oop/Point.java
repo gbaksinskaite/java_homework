@@ -61,11 +61,11 @@ public class Point implements Movable {
 		} else {
 			System.out.println("The point can't move right, it will be outside the circle.");
 		}
-
 	}
 	
 	/*
-	 * Method checks if distance from Point to center of Circle is longer and sets Circle as variable of Point object, if it is true.
+	 * Method checks if distance from Point to center of Circle is shorter than radius of Circle 
+	 * and sets Circle as variable of Point object, if it is true.
 	 */
 	public void setCircle(Circle circle) {
 		if (Math.sqrt(Math.pow((this.getPositionY()-circle.getCenterY()), 2) + Math.pow((circle.getCenterX() - this.getPositionX()), 2))
